@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Aplikasi Pilihan Data</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Pilih Menu</h1>
+
+    <div class="form-group">
+      <label>Makanan</label>
+      <select id="food">
+        <option value="">Pilih Makanan</option>
+        <option value="Nasi Goreng">Nasi Goreng</option>
+        <option value="Mie Ayam">Mie Ayam</option>
+        <option value="Ayam Geprek">Ayam Geprek</option>
+      </select>
+
+      <select id="portion">
+        <option value="">Pilih Porsi</option>
+        <option value="Kecil">Kecil</option>
+        <option value="Sedang">Sedang</option>
+        <option value="Besar">Besar</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>Minuman</label>
+      <select id="drink">
+        <option value="">Pilih Minuman</option>
+        <option value="Es Teh">Es Teh</option>
+        <option value="Kopi">Kopi</option>
+        <option value="Jus Jeruk">Jus Jeruk</option>
+      </select>
+
+      <select id="temperature">
+        <option value="">Pilih Suhu</option>
+        <option value="Dingin">Dingin</option>
+        <option value="Hangat">Hangat</option>
+      </select>
+    </div>
+
+    <button id="submitBtn">Kirim Pilihan</button>
+    <div id="notification" class="notification"></div>
+
+    <div id="result" class="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
